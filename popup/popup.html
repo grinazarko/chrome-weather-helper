@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <title>Zipper weather</title>
+    <link href="popup.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="spinner" class="spinner"></div>
+    <div id="weatherBlock" class="invisible">
+        <div id="city" class="city-capture"></div>
+        <div class="weather-info-wrapper">
+            <div class="image-temperature-wrapper">
+                <div class="wrapper">
+                    <img id="icon" class="weather-icon" height="45" width="45"/>
+                </div>
+                <div class="wrapper">
+                    <div id="temperature" class="temperature-capture"></div>
+                </div>
+            </div>
+            <div id="clouds" class="additional-info"></div>
+            <div id="wind" class="additional-info"></div>
+        </div>
+    </div>
+    <div id="error" class="invisible"></div>
+    <script src="popup.js"></script>
+</body>
+</html>
